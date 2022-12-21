@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      margin: 0px;
+     
+    }
+      
+    *{
+      box-sizing: border-box;
+    }
+    nav{
+      height: 90px;
+      width: 100%;
+      background-color: transparent;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 40px;
+    }
+    .one{
+      height: 100%;
+      display: flex;
+      width: 500px;
+      justify-content: space-between;
+
+
+    }
+    .one button{
+      width: 120px;
+      border-radius: 50px;
+      border: 0px;
+      font-size: 16px;
+    }
+    ul{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 300px;
+      text-decoration: none;
+      list-style: none;
+      color: white;
+      font-size: 20px;
+    }
+    .top{
+      background-image: url(./images/desktop/image-header.jpg);
+      height: 50%;
+      padding-right: 50px;
+      padding-left: 50px;
+    }
+    .two{
+      background-image: url(./images/desktop/image-header.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 900px;
+      width: 100%;
+      margin-top: -75px;
+    }
+    .two h1{
+      font-size: 80px;
+      
+      color: white;
+      display: flex;
+      justify-content: center;
+      padding-top: 200px;
+    }
+    .two img{
+      margin-left: 820px;
+      margin-top: 100px;
+    }
+    .second{
+      height: 600px;
+      width: 100%;
+      display: flex;
+    }
+    .left1{
+      height: 100%;
+      width: 50%;
+      padding-left: 180px;
+      padding-right: 50px;
+      padding-top: 120px;
+
+    }
+    .right1{
+      height: 100%;
+      width: 50%;
+      background-image: url(./images/desktop/image-transform.jpg);
+      background-size: cover;
+    }
+    h2{
+      font-size: 50px;
+      width: 380px;
+      
+    }
+    p{
+      width: 420px;
+      font-size: 18px;
+      color:hsl(232, 10%, 55%);
+
+    }
+   h4{
+    margin-top: 50px;
+    
+  
+   }
+   .third{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    
+   }
+   .left2{
+    background-image: url(./images/desktop/image-stand-out.jpg);
+    height: 100%;
+    width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+   }
+   .right2{
+    height: 100%;
+    width: 50%;
+    padding-left: 180px;
+      padding-right: 50px;
+      padding-top: 120px;
+
+   }
+   .right2 h2{
+    width: 500px;
+   }
+   .four{
+    height: 600px;
+    width: 100%;
+    display: flex;
+   }
+   .left3{
+    height: 100%;
+    width: 50%;
+    background-image: url(./images/desktop/image-graphic-design.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+   }
+   .left3 h3{
+  font-size: 35px;
+  color:  hsl(167, 40%, 24%);
+   }
+   .left3 p{
+    width: 350px;
+    text-align: center;
+    color: hsl(168, 34%, 41%) ;
+   }
+   .right3{
+    height:100%;
+    width: 50%;
+    background-image: url(./images/desktop/image-photography.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+  }
+  .right3 h3{
+    font-size: 35px;
+    color:  hsl(167, 40%, 24%);
+  }
+  .right3 p{
+    text-align: center;
+    width: 350px;
+    color: hsl(168, 34%, 41%) ;
+  }
+  .five{
+    height: 800px;
+    width: 100%;
+   
+    text-align: center;
+    
+    padding-top: 150px;
+    
+  }
+  .five h1{
+    letter-spacing: 6px;
+    color: hsl(213, 9%, 39%);
+  }
+  .five .a{
+  
+    height: 400px;
+    width: 400px;
+    margin: 10px;
+    margin-top: 60px;
+
+  }
+  .tip{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .a img{
+    border-radius: 50%;
+    width: 80px;
+    margin-bottom: 50px;
+    
+  }
+  .a{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+  }
+  .a p1{
+    width: 350px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .a p2{
+    font-size: 20px;
+    width: 350px;
+    line-height: 30px;
+  }
+  .a p3{
+    font-size: 20px;
+    width: 370px;
+    line-height: 30px;
+  }
+  h6{
+    font-size: 15px;
+    margin-top: -10px;
+    color: hsl(213, 9%, 39%);
+  }
+  .a h3{
+    margin-top: 70px;
+  }
+  .six{
+    height: 524px;
+    width: 100%;
+    display: flex;
+    
+  }
+  .six img{
+    width: 379px;
+  }
+  .seven{
+    height: 400px;
+    width: 100%;
+    background-color:   hsla(168, 61%, 64%, 0.645);
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  }
+  .seven h1{
+    font-size: 40px;
+    margin-top: 100px;
+    color:  hsl(167, 40%, 24%);
+  }
+  .seven h5{width: 300px;
+    display: flex;
+    flex-direction: row;
+    word-spacing: 50px;
+    font-size: 19px;
+    color:  hsl(168, 34%, 41%);
+    
+
+  }
+  .seven h2{
+    width: 170px;
+  
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+  }
+  hr{
+    height: 5px;
+    width: 100%;
+    
+  }
+  .red{
+    border: 2px solid red;
+    width: fit-content;
+    height: 40px;
+    
+    
+    
+  }
+  </style>
+</head>
+<body>
+  <div class="top">
+  <nav>
+    <img src="./images/logo.svg" alt="" width="200px">
+    <div class="one">
+    <ul>
+      <li>about</li>
+      <li>service</li>
+      <li>project</li>
+    </ul>
+    <button>CONTACT</button>
+    </div>
+  </nav>
+  </div>
+  <div class="two">
+    <h1>WE ARE CREATIVE</h1>
+    <img src="./images/icon-arrow-down.svg" alt="">
+    
+  </div>
+  <div class="second">
+    <div class="left1">
+      <h2>Transform your brand</h2>
+
+<p>We are a full-service creative agency specializing in helping brands grow fast. 
+Engage your clients through compelling visuals that do most of the marketing for you.</p>
+<div class="red">
+<h4>LEARN MORE</h4>
+</hr></div>
+
+    </div>
+    <div class="right1"></div>
+  </div>
+  <div class="third">
+    <div class="left2"></div>
+    <div class="right2">
+      <h2>Stand out to the right audience</h2>
+
+<p >a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. </p>
+
+<h4>LEARN MORE</h4>
+
+    </div>
+  </div>
+  <div class="four">
+    <div class="left3"> 
+      <h3>Graphic design</h3>
+<p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+    </div>
+    <div class="right3">
+     <h3> Photography</h3>
+<p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+
+    </div>
+  </div>
+  <div class="five">
+    <h1>CLIENT TESTIMONIAL</h1>
+    <div class="tip">
+     <div class="a"> <img src="./images/image-emily.jpg" alt=""><p1>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p1>
+      <h3>Emily R.</h3>
+      <h6>Marketing Director</h6></div>
+     <div class="a"> <img src="./images/image-thomas.jpg" alt=""><p2>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p2>
+      <h3>Thomas S.</h3>
+      <h6>Chief Operating Officer</h6></div>
+     <div class="a"> <img src="./images/image-jennie.jpg" alt=""><p3>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p3>
+      <h3>Jennie F.</h3>
+      <h6>Business Owner</h6></div>
+    </div> 
+  </div>
+  <div class="six">
+    <img src="./images/desktop/image-gallery-milkbottles.jpg" alt="">
+    <img src="./images/desktop/image-gallery-orange.jpg" alt="" >
+    <img src="./images/desktop/image-gallery-cone.jpg" alt="" >
+    <img src="./images/desktop/image-gallery-sugarcubes.jpg" alt="" >
+  </div>
+  <div class="seven">
+    <h1>sunnyside</h1>
+    <h5>About   Services   Projects
+    </h5>
+    <h2>
+      <img src="./images/icon-facebook.svg" alt="">
+      <img src="./images/icon-instagram.svg" alt="">
+      <img src="./images/icon-twitter.svg" alt="">
+      <img src="./images/icon-pinterest.svg" alt="">
+    </h2>
+  </div>
+  
+</body>
+</html>

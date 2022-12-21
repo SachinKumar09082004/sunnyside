@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.sunnyside{
+    
+
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+img{
+    height: 30px;
+    width: 300px;
+    margin-right: 650px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+ul{
+    align-items: center;
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    list-style-type: none;
+    
+}
+#contact{
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 20px;
+}
